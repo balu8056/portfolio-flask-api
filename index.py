@@ -10,7 +10,7 @@ def home():
 
 
 @app.get('/hello/greet')
-def home():
+def homeNext():
     return {'greet': 'welcome Bala!'}
 
 
